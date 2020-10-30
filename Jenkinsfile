@@ -5,7 +5,7 @@ pipeline {
         VERSION = "${BUILD_NUMBER}"
         PROJECT = 'nodeapp'
         IMAGE = "$PROJECT:$VERSION"
-        registry = "123456nish/spring"
+        registry = "sandeeprudra91/testdocker1"
         registryCredential = 'docker'
         dockerImage = ''
     }
